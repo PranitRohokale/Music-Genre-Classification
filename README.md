@@ -37,11 +37,20 @@
     - [x] <img src="https://github.com/PranitRohokale/Music-Genre-Classification/blob/main/snapshots/zcr.png"  width="600" height="300">
 
 -  **Spectral Centroid :**
-    - [x] A signal is a variation in a certain quantity over time.
-    - [x] <img src="https://github.com/PranitRohokale/Music-Genre-Classification/blob/main/snapshots/spectral_rolloff.png"  width="600" height="300">
--  **Signals :**
-    - [x] A signal is a variation in a certain quantity over time.
-    - [x]
+    - [x] It indicates where the ” center of mass” for a sound is located and is calculated as the weighted mean of the frequencies present in the sound. Consider two songs, one from a blues genre and the other belonging to metal.
+    - [x] <img src="https://github.com/PranitRohokale/Music-Genre-Classification/blob/main/snapshots/centroid.png"  width="600" height="300">
 
+-  **Spectral RollOff  :**
+    - [x] It is a measure of the shape of the signal. It represents the frequency below which a specified percentage of the total spectral energy.
+    - [x] <img src="https://github.com/PranitRohokale/Music-Genre-Classification/blob/main/snapshots/spectral_rolloff.png"  width="600" height="300">
+
+-  **Croma Frequencies  :**
+    - [x] Chroma features are an interesting and powerful representation for music audio in which the entire spectrum is projected onto 12 bins representing the 12 distinct semitones (or chroma) of the musical octave.
+    - [x] <img src="https://github.com/PranitRohokale/Music-Genre-Classification/blob/main/snapshots/croma_freq.png"  width="600" height="300">
 
 ## 📱 Screenshots
+
+##  Refered Papers
+- [https://www.researchgate.net/publication/324218667_Music_Genre_Classification_using_Machine_Learning_Techniques ](https://www.researchgate.net/publication/324218667_Music_Genre_Classification_using_Machine_Learning_Techniques)
+- [http://www.internationaljournalssrg.org/IJCMS/2020/Volume7-Issue1/IJCMS-V7I1P102.pdf](http://www.internationaljournalssrg.org/IJCMS/2020/Volume7-Issue1/IJCMS-V7I1P102.pdf)
+
