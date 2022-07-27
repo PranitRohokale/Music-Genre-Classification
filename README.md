@@ -48,9 +48,27 @@
     - [x] Chroma features are an interesting and powerful representation for music audio in which the entire spectrum is projected onto 12 bins representing the 12 distinct semitones (or chroma) of the musical octave.
     - [x] <img src="https://github.com/PranitRohokale/Music-Genre-Classification/blob/main/snapshots/croma_freq.png"  width="600" height="300">
 
-## 📱 Screenshots
+## 📚 Applied Models
+1. Naive Bayes Classifier
+2. Decision Trees
+3. K Nearest Neighbors
+4. Neural Networks
 
-##  Refered Papers
+    > first create a function which takes the model as the input and fits it to the training dataset, which then predicts the genres of the tracks in the test dataset. It then prints the confusion matrix along with the accuracy of the model.
+
+| Model |  Accuracy |
+|:----:|:-----:|
+| **Naive Bayes Classifier** | `51.9%` |
+| **Decision Trees** | `64.4%` |
+| **K Nearest Neighbors** | `80.5%` |
+| **Neural Networks** | `67.1%` |
+
+## Confusion matrix
+> It' determined that KNN has the highest accuracy, the final model is then developed based on it, and according to this model. So, I compute the feature importance.
+<img src="https://github.com/PranitRohokale/Music-Genre-Classification/blob/main/snapshots/confusion_matrix.png"  width="600" height="300">
+
+
+## 📱 Refered Papers
 - [https://www.researchgate.net/publication/324218667_Music_Genre_Classification_using_Machine_Learning_Techniques ](https://www.researchgate.net/publication/324218667_Music_Genre_Classification_using_Machine_Learning_Techniques)
 - [http://www.internationaljournalssrg.org/IJCMS/2020/Volume7-Issue1/IJCMS-V7I1P102.pdf](http://www.internationaljournalssrg.org/IJCMS/2020/Volume7-Issue1/IJCMS-V7I1P102.pdf)
 
